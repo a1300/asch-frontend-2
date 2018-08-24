@@ -7,10 +7,6 @@ const langsOpts = [
     label: 'English',
     value: 'en'
   }
-  // {
-  //   label: 'Deutsch',
-  //   value: 'de'
-  // }
 ]
 
 const fees = {
@@ -84,7 +80,7 @@ const officialPeers = [
 
 const urls = {
   server: {
-    development: 'http://192.168.1.78:7800',
+    development: process.env.HOST && process.env.PORT ? `http://${process.env.HOST}:${process.env.PORT}` : 'localhost:4096',
     // development: 'testnet1.asch.cn:80',
     // development: 'http://47.94.37.201:4006',
     // development: 'http://39.106.250.196:4096',

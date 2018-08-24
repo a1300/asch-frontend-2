@@ -20,7 +20,7 @@ $ npm install -g yarn
 
 Then, install Quasar CLI. Make sure you have Node >=8 and NPM >=5 installed on your machine.
 
-```
+```bash
 # Node.js >= 8.9.0 is required.
 $ yarn global add quasar-cli
 # or:
@@ -28,12 +28,12 @@ $ npm install -g quasar-cli
 ```
 
 ### Install the libraries
-```
+```bash
 $ git clone https://github.com/AschPlatform/asch-frontend-2.git && cd asch-frontend-2 && yarn install
 ```
 
 ### run development server (with default theme)
-```
+```bash
 $ quasar dev
 ```
 
